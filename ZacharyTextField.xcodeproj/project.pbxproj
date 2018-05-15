@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68DDE3A720AB477D009BB259 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DDE3A620AB477D009BB259 /* AppDelegate.m */; };
+		68DDE3AA20AB477D009BB259 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DDE3A920AB477D009BB259 /* ViewController.m */; };
+		68DDE3AD20AB477D009BB259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DDE3AB20AB477D009BB259 /* Main.storyboard */; };
+		68DDE3B020AB477D009BB259 /* ZacharyTextField.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68DDE3AE20AB477D009BB259 /* ZacharyTextField.xcdatamodeld */; };
+		68DDE3B220AB477E009BB259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DDE3B120AB477E009BB259 /* Assets.xcassets */; };
+		68DDE3B520AB477E009BB259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DDE3B320AB477E009BB259 /* LaunchScreen.storyboard */; };
+		68DDE3B820AB477E009BB259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DDE3B720AB477E009BB259 /* main.m */; };
+		68DDE3C920AB47C0009BB259 /* UIView+NSStringImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DDE3C620AB47C0009BB259 /* UIView+NSStringImage.m */; };
+		68DDE3CA20AB47C0009BB259 /* ZacharyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DDE3C820AB47C0009BB259 /* ZacharyTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68DDE3A220AB477D009BB259 /* ZacharyTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZacharyTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DDE3A520AB477D009BB259 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68DDE3A620AB477D009BB259 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68DDE3A820AB477D009BB259 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68DDE3A920AB477D009BB259 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68DDE3AC20AB477D009BB259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68DDE3AF20AB477D009BB259 /* ZacharyTextField.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZacharyTextField.xcdatamodel; sourceTree = "<group>"; };
+		68DDE3B120AB477E009BB259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68DDE3B420AB477E009BB259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68DDE3B620AB477E009BB259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DDE3B720AB477E009BB259 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68DDE3C520AB47C0009BB259 /* UIView+NSStringImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NSStringImage.h"; sourceTree = "<group>"; };
+		68DDE3C620AB47C0009BB259 /* UIView+NSStringImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NSStringImage.m"; sourceTree = "<group>"; };
+		68DDE3C720AB47C0009BB259 /* ZacharyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZacharyTextField.h; sourceTree = "<group>"; };
+		68DDE3C820AB47C0009BB259 /* ZacharyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZacharyTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68DDE39F20AB477D009BB259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68DDE39920AB477D009BB259 = {
+			isa = PBXGroup;
+			children = (
+				68DDE3A420AB477D009BB259 /* ZacharyTextField */,
+				68DDE3A320AB477D009BB259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68DDE3A320AB477D009BB259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DDE3A220AB477D009BB259 /* ZacharyTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68DDE3A420AB477D009BB259 /* ZacharyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				68DDE3C420AB47C0009BB259 /* ZacharyTextField */,
+				68DDE3A520AB477D009BB259 /* AppDelegate.h */,
+				68DDE3A620AB477D009BB259 /* AppDelegate.m */,
+				68DDE3A820AB477D009BB259 /* ViewController.h */,
+				68DDE3A920AB477D009BB259 /* ViewController.m */,
+				68DDE3AB20AB477D009BB259 /* Main.storyboard */,
+				68DDE3B120AB477E009BB259 /* Assets.xcassets */,
+				68DDE3B320AB477E009BB259 /* LaunchScreen.storyboard */,
+				68DDE3B620AB477E009BB259 /* Info.plist */,
+				68DDE3B720AB477E009BB259 /* main.m */,
+				68DDE3AE20AB477D009BB259 /* ZacharyTextField.xcdatamodeld */,
+			);
+			path = ZacharyTextField;
+			sourceTree = "<group>";
+		};
+		68DDE3C420AB47C0009BB259 /* ZacharyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				68DDE3C520AB47C0009BB259 /* UIView+NSStringImage.h */,
+				68DDE3C620AB47C0009BB259 /* UIView+NSStringImage.m */,
+				68DDE3C720AB47C0009BB259 /* ZacharyTextField.h */,
+				68DDE3C820AB47C0009BB259 /* ZacharyTextField.m */,
+			);
+			path = ZacharyTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68DDE3A120AB477D009BB259 /* ZacharyTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DDE3BB20AB477E009BB259 /* Build configuration list for PBXNativeTarget "ZacharyTextField" */;
+			buildPhases = (
+				68DDE39E20AB477D009BB259 /* Sources */,
+				68DDE39F20AB477D009BB259 /* Frameworks */,
+				68DDE3A020AB477D009BB259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZacharyTextField;
+			productName = ZacharyTextField;
+			productReference = 68DDE3A220AB477D009BB259 /* ZacharyTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68DDE39A20AB477D009BB259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = gaogang;
+				TargetAttributes = {
+					68DDE3A120AB477D009BB259 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 68DDE39D20AB477D009BB259 /* Build configuration list for PBXProject "ZacharyTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68DDE39920AB477D009BB259;
+			productRefGroup = 68DDE3A320AB477D009BB259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68DDE3A120AB477D009BB259 /* ZacharyTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68DDE3A020AB477D009BB259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DDE3B520AB477E009BB259 /* LaunchScreen.storyboard in Resources */,
+				68DDE3B220AB477E009BB259 /* Assets.xcassets in Resources */,
+				68DDE3AD20AB477D009BB259 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68DDE39E20AB477D009BB259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DDE3B020AB477D009BB259 /* ZacharyTextField.xcdatamodeld in Sources */,
+				68DDE3AA20AB477D009BB259 /* ViewController.m in Sources */,
+				68DDE3B820AB477E009BB259 /* main.m in Sources */,
+				68DDE3C920AB47C0009BB259 /* UIView+NSStringImage.m in Sources */,
+				68DDE3CA20AB47C0009BB259 /* ZacharyTextField.m in Sources */,
+				68DDE3A720AB477D009BB259 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68DDE3AB20AB477D009BB259 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68DDE3AC20AB477D009BB259 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68DDE3B320AB477E009BB259 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68DDE3B420AB477E009BB259 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68DDE3B920AB477E009BB259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68DDE3BA20AB477E009BB259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68DDE3BC20AB477E009BB259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23ZQ26R8J4;
+				INFOPLIST_FILE = ZacharyTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lianluo.ZacharyTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68DDE3BD20AB477E009BB259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23ZQ26R8J4;
+				INFOPLIST_FILE = ZacharyTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lianluo.ZacharyTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68DDE39D20AB477D009BB259 /* Build configuration list for PBXProject "ZacharyTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DDE3B920AB477E009BB259 /* Debug */,
+				68DDE3BA20AB477E009BB259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DDE3BB20AB477E009BB259 /* Build configuration list for PBXNativeTarget "ZacharyTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DDE3BC20AB477E009BB259 /* Debug */,
+				68DDE3BD20AB477E009BB259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68DDE3AE20AB477D009BB259 /* ZacharyTextField.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68DDE3AF20AB477D009BB259 /* ZacharyTextField.xcdatamodel */,
+			);
+			currentVersion = 68DDE3AF20AB477D009BB259 /* ZacharyTextField.xcdatamodel */;
+			path = ZacharyTextField.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68DDE39A20AB477D009BB259 /* Project object */;
+}
