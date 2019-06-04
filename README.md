@@ -11,4 +11,4 @@ CusTextField = [[ZacharyTextField alloc]initWithFrame:CGRectMake(40, 200, 200, 6
 ![xib截图](https://github.com/struggle3g/MyScreenshots/blob/master/WechatIMG1.jpg)
 
 ## 结果
-![结果](https://github.com/struggle3g/MyScreenshots/blob/master/CusPassword.jpg)
+![结果](https://raw.githubusercontent.com/GanggangGao/MyMcreenshots/master/CusPassword.gif?token=ACZ4K75FMTMHNIMSZYNUK7S46YC5E)
